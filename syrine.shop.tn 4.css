@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #0a0a07, #ffffff);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.buy-now {
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 12px;
+    background-color: #0f79e29b;
+    
+}
+
+.buy-now h2 {
+    height: 10%;
+    color: rgb(252, 255, 240);
+    text-align: center;
+}
+
+.buy-now form {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.buy-now form input {
+    width: 90%;
+    height: 40px;
+    outline: none;
+    background-color: #333;
+   
+}
+
+.buy-now form textarea {
+    width: 90%;
+    height: 150px;
+    outline: none;
+    background-color: #333;
+}
+
+.buy-now form button {
+    width: 90%;
+    height: 40px;
+    margin-bottom: 50px;
+    border: none;
+    cursor: pointer;
+    border-right: 12px;
+
+}
